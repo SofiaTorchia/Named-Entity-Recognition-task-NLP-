@@ -1,5 +1,7 @@
 # NLP First Homework: Named Entity Recognition
 
+NLP Course - July 2022
+
 ## Introduction
 Name Entity Recognition (NER) is a sequence labelling task that aims at locating and classifying named entities mentioned in a corpus into categories. For this tasks the following labels are considered: PER (Person), CORP (Corporation), LOC (Location), PROD (Product), GRP (Group), CW (Creative Work), O (for no named entity). For each label the BIO format is used:  a label has the prefix B- if it is the beginning of some consecutive named entities, and has the prefix I- otherwise. Therefore the labels are actually 13: B-PER, B-LOC, B-GRP, B-CORP, B-PROD, B-CW, I-PER, I-LOC, I-GRP, I-CORP, I-PROD, I-CW and O. 
 
